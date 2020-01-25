@@ -3,3 +3,5 @@
 
   hosts: LocalHost
   connection: local
+  
+  tasks:
