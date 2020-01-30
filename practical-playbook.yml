@@ -12,3 +12,5 @@
   - name: Check current user
     command: whoami
     register: whoami
+    
+  - debug: var=whoami.stdout_lines
