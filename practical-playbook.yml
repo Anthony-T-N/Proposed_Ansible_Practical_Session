@@ -14,3 +14,5 @@
     register: whoami
     
   - debug: var=whoami.stdout_lines
+
+- name: Create new file
