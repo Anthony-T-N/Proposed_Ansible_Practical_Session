@@ -16,3 +16,6 @@
   - debug: var=whoami.stdout_lines
 
 - name: Create new file
+
+  hosts: LocalHost
+  connection: local
