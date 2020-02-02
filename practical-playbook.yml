@@ -19,3 +19,6 @@
 
   hosts: LocalHost
   connection: local
+  
+  become: yes
+  become_user: root
