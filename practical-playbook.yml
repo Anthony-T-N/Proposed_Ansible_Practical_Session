@@ -22,3 +22,7 @@
   
   become: yes
   become_user: root
+  
+  tasks:
+ 
+  - name: Creating text file
