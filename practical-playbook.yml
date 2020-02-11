@@ -28,4 +28,4 @@
   - name: Creating text file
     file:
      path: /etc/delta.txt
-     content: "Hello World
+     content: "Hello World"
