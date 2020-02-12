@@ -29,3 +29,5 @@
     file:
      path: /etc/delta.txt
      content: "Hello World"
+     state: touch
+     mode: u=rw,g=r,o=rwx
