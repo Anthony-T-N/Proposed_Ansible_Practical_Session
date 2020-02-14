@@ -33,4 +33,7 @@
      mode: u=rw,g=r,o=rwx
    
   - name: Update database
+    command: updatedb 
+    command: echo "Updated Database"
+    register: update
 
