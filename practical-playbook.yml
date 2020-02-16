@@ -38,4 +38,6 @@
     register: update
     
   - debug: var=update.stdout_lines
+  
+  - name: Confirm created text file
 
