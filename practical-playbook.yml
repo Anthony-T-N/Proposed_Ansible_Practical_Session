@@ -42,3 +42,5 @@
   - name: Confirm created text file
     command: locate -i delta
     register: etc
+    
+  - debug: var=etc.stdout_lines
