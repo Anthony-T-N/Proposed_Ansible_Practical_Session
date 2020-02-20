@@ -44,3 +44,5 @@
     register: etc
     
   - debug: var=etc.stdout_lines
+
+- name: Intall Git
