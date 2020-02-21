@@ -46,3 +46,6 @@
   - debug: var=etc.stdout_lines
 
 - name: Intall Git
+
+  hosts: LocalHost
+  connection: local
