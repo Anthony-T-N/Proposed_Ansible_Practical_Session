@@ -56,3 +56,5 @@
   tasks:
   
   - name: Check if Git is installed
+    package_facts:
+      manager: "auto"
