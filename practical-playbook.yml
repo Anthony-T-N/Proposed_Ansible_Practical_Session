@@ -58,3 +58,8 @@
   - name: Check if Git is installed
     package_facts:
       manager: "auto"
+      
+  - name: Git test result
+    debug: 
+      msg: Git Found
+    when: "'git' in ansible_facts.packages"
