@@ -63,3 +63,5 @@
     debug: 
       msg: Git Found
     when: "'git' in ansible_facts.packages"
+  
+  - name: Install git package
