@@ -70,3 +70,5 @@
        state: present
        update_cache: yes
     when: "'git' not in ansible_facts.packages"
+
+  - name: Install git package via command
