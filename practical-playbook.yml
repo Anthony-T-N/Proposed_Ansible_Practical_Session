@@ -72,3 +72,4 @@
     when: "'git' not in ansible_facts.packages"
 
   - name: Install git package via command
+    command: apt-get install git  
